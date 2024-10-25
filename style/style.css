@@ -1,3 +1,9 @@
+@font-face{
+    font-family: "Gulfs Display";
+    src: url(../font/GulfsDisplay-Normal.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 /* menos de 768px */
 @media (max-width: 767px) {
 body {
@@ -8,6 +14,12 @@ body {
     height: 10000px;
     position: relative;
 }
+
+/* pigografia serif */
+/* p {
+    font-family: "Open Sans", serif;
+    font-weight:
+} */
 
 .global {
     position: relative;
@@ -27,14 +39,14 @@ body {
     position: relative;
     outline: 1px solid red;
     width: 100%;
-    height: 625px;
+    height: 745px;
 }
 
 .caja1 {
     position: absolute;
     outline: 1px solid black;
     background-color: rgb(236, 138, 203);
-    height: 360px;
+    height: 470px;
     width: 100%;
     z-index: 1;
 }
@@ -49,7 +61,7 @@ body {
 
 .img2 {
     margin-left: 65px;
-    margin-top: 185px;
+    margin-top: 298px;
     width: 259px;
     height: 380px;
     border-radius: 126px;
@@ -60,7 +72,7 @@ body {
 
 .estrella {
     margin-left: 17px;
-    margin-top: 224px;
+    margin-top: 348px;
     width: 38px;
     height: 38px;
     position: absolute;
@@ -70,7 +82,7 @@ body {
 
 .estrella1 {
     margin-left: 344px;
-    margin-top: 272px;
+    margin-top: 385px;
     width: 23px;
     height: 24px;
     position: absolute;
@@ -80,7 +92,7 @@ body {
 
 .estrella2 {
     margin-left: 33px;
-    margin-top: 117px;
+    margin-top: 231px;
     width: 20px;
     height: 20px;
     position: absolute;
@@ -90,7 +102,7 @@ body {
 
 .logo {
     margin-left: 25px;
-    margin-top: 485px;
+    margin-top: 598px;
     width: 100px;
     height: 100px;
     position: absolute;
@@ -101,7 +113,7 @@ body {
 
 .linea {
     margin-left: 310px;
-    margin-top: 208px;
+    margin-top: 321px;
     width: 67px;
     height: 30px;
     position: absolute;
@@ -111,11 +123,50 @@ body {
 .caja2 {
     
     background-color: rgb(231, 255, 98);
-    height: 625px;
+    height: 745px;
     width: 100%;
     position: absolute;
     z-index: 0;
 }
+
+.text {
+    font-family: "Gulfs Display", sans-serif;
+    position: absolute;
+    z-index: 9;
+    color: blue;
+    font-weight: 500;
+    margin-top: 190px;
+    margin-left: 45px;
+    font-size: 42.5px;
+} 
+
+.text1 {
+    font-family: "Gulfs Display", sans-serif;
+    position: absolute;
+    z-index: 9;
+    color: blue;
+    font-weight: 500;
+    margin-top: 233px;
+    margin-left: 156px;
+    font-size: 42.5px;
+} 
+
+.text2 {
+    font-family: "Gulfs Display", sans-serif;
+    position: absolute;
+    z-index: 9;
+    color: blue;
+    font-weight: 500;
+    margin-top: 273px;
+    margin-left: 35px;
+    font-size: 38.5px;
+} 
+
+
+
+
+
+/* seccion nosotros */
 
 .seccion-nosotros {
     overflow: hidden;
@@ -123,7 +174,8 @@ body {
     padding: 0;
     width: 100%;
     background-color: rgb(231, 255, 98);
-    height: 625px;
+    outline: 1px solid blue;
+    height: 1000px;
     z-index: 0;
 }
 
@@ -132,11 +184,43 @@ body {
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 10px;
-    
-    
 }
 
+.text3 {
+    font-family: "Anybody", sans-serif;
+    color: rgb(231, 255, 98);
+    -webkit-text-stroke: 3px #0061ff;
+    position: absolute;
+    z-index: 9;
+    margin-top: 62px;
+    margin-left: 45px;
+    font-size: 80px;
+    
+} 
 
+.text4 {
+    font-family: "Anybody", sans-serif;
+    color: rgb(231, 255, 98);
+    position: absolute;
+    z-index: 9;
+    margin-top: 125px;
+    margin-left: 45px;
+    font-size: 80px;
+    -webkit-text-stroke: 3px #0061ff;
+
+} 
+
+.p1 {
+    font-family: "Anybody", sans-serif;
+    position: absolute;
+    margin-top: 216px;
+    margin-left: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    width: calc(450px - 150px);
+    text-align: left;
+    
+}
 
 
 
