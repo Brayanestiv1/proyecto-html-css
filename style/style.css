@@ -305,15 +305,81 @@ body {
     overflow: hidden;
     width: 100%;
     outline: 1px solid green;
-    height: 1030px;
+    height: 800px;
     z-index: 0;
     
 }
 
+.caja6 {
+    outline: 1px solid black;
+    position: absolute;
+    background-color: rgb(236, 138, 203);
+    height: 215px;
+    width: 100%;
+    z-index: 1;
+    margin-top: 385px;
+}
 
 
+.img4 {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 40px;
+    width: 203px;
+    height: 260px;
+    border-radius: 20px;
+    outline: 1px solid black;
+    position: absolute;
+    z-index: 1;
+}
 
+.img5 {
+    position: absolute;
+    margin-left: 225px;
+    margin-top: 40px;
+    width: 296px;
+    height: 260px;
+    border-radius: 20px;
+    outline: 1px solid black;
+    position: absolute;
+    z-index: 1;
+}
 
+.img6 {
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 320px;
+    width: 203px;
+    height: 260px;
+    border-radius: 20px;
+    outline: 1px solid black;
+    position: absolute;
+    z-index: 1;
+}
+
+.img7 {
+    position: absolute;
+    margin-left: 272px;
+    margin-top: 320px;
+    width: 290px;
+    height: 260px;
+    border-radius: 20px;
+    outline: 1px solid black;
+    position: absolute;
+    z-index: 1;
+}
+
+.img8 {
+    position: absolute;
+    margin-left: -228px;
+    margin-top: 320px;
+    width: 270px;
+    height: 260px;
+    border-radius: 20px;
+    outline: 1px solid black;
+    position: absolute;
+    z-index: 1;
+}
 
 
 
