@@ -5,9 +5,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 /* menos de 768px */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 body {
-    display:flex;
+   
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -45,7 +45,7 @@ body {
 .caja1 {
     position: absolute;
     outline: 1px solid black;
-    background-color: rgb(236, 138, 203);
+    background-color: #ffb4cc;
     height: 470px;
     width: 100%;
     z-index: 1;
@@ -60,6 +60,7 @@ body {
 }
 
 .img2 {
+    
     margin-left: 65px;
     margin-top: 298px;
     width: 259px;
@@ -122,7 +123,7 @@ body {
 }
 .caja2 {
     
-    background-color: rgb(231, 255, 98);
+    background-color:  #fcf46c;
     height: 745px;
     width: 100%;
     position: absolute;
@@ -172,7 +173,7 @@ body {
     position: relative;
     overflow: hidden;
     width: 100%;
-    background-color: rgb(231, 255, 98);
+    background-color:  #fcf46c;
     outline: 1px solid blue;
     height: 1030px;
     z-index: 0;
@@ -191,7 +192,7 @@ body {
 
 .text3 {
     font-family: "Gulfs Display", sans-serif;
-    color: rgb(231, 255, 98);
+    color:  #fcf46c;
     -webkit-text-stroke: 3px #0061ff;
     position: absolute;
     z-index: 9;
@@ -204,7 +205,7 @@ body {
 
 .text4 {
     font-family: "Gulfs Display", sans-serif;
-    color: rgb(231, 255, 98);
+    color:  #fcf46c;
     position: absolute;
     z-index: 9;
     margin-top: 150px;
@@ -263,7 +264,7 @@ body {
     height: 331px;
     margin-top: 647px;
     margin-left: -347px;
-    background-color: rgb(250, 180, 227);
+    background-color: #ffb4cc;
     transform: rotate(356deg); /* Rota 45 grados */
 }
 
@@ -273,7 +274,7 @@ body {
     height: 331px;
     margin-top: 639px;
     margin-left: -289px;
-    background-color: rgb(250, 180, 227);
+    background-color: #ffb4cc;
     transform: rotate(356deg); /* Rota 45 grados */
 }
 
@@ -305,7 +306,7 @@ body {
     overflow: hidden;
     width: 100%;
     outline: 1px solid green;
-    height: 800px;
+    height: 649px;
     z-index: 0;
     
 }
@@ -313,11 +314,11 @@ body {
 .caja6 {
     outline: 1px solid black;
     position: absolute;
-    background-color: rgb(236, 138, 203);
-    height: 215px;
+    background-color: #ff6444;
+    height: 209px;
     width: 100%;
     z-index: 1;
-    margin-top: 385px;
+    margin-top: 440px;
 }
 
 
@@ -382,9 +383,16 @@ body {
 }
 
 
+/* seccion precios */
 
-
-
+.seccion-precios {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    outline: 1px solid green;
+    height: 649px;
+    z-index: 0;
+}
 
 
 
