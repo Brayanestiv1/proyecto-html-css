@@ -39,14 +39,14 @@ body {
     position: relative;
     outline: 1px solid red;
     width: 100%;
-    height: 745px;
+    height: 69.03vh;
 }
 
 .caja1 {
     position: absolute;
     outline: 1px solid black;
     background-color: #ffb4cc;
-    height: 470px;
+    height: 43.52vh;
     width: 100%;
     z-index: 1;
 }
@@ -124,7 +124,7 @@ body {
 .caja2 {
     
     background-color:  #fcf46c;
-    height: 745px;
+    height: 69.03vh;
     width: 100%;
     position: absolute;
     z-index: 0;
